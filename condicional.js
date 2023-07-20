@@ -33,3 +33,4 @@ if(numero2>10){
  }else{
     console.log("nao é boleano");
  }
+
