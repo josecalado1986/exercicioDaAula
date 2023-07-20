@@ -32,5 +32,8 @@ function  divisão (n1,n2){
     return n1/n2
 }
 console.log(divisão(10,2));
+
+
+
     
 
