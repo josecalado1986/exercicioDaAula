@@ -1,5 +1,5 @@
 const input = require("readline-sync");
-
+//verificar se o numero de divisível por 2 ,3 ,5
 let num = input.question("digite um numero : ");
  if(num % 2 ==0){
     console.log("esse numero e divisivel por 2 ");
