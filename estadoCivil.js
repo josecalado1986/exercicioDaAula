@@ -1,13 +1,13 @@
 const input = require("readline-sync")
 let status = input.question("digite  seu status");
 switch (status) {
-    case 1:
+    case "solteio":
         console.log("voçê  é solteira");
         break;
-    case 2:
+    case "casado":
         console.log("voçê  é casado");
         break;
-    case 3:
+    case "divorciado":
         console.log("voçê  é divociado");
         break;
     default:
