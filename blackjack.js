@@ -8,3 +8,6 @@ if( soma >21){
     console.log( "voce ganhou !!");
 } 
 console.log(" seus pontos saõ :", soma);
+
+
+
