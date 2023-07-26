@@ -11,12 +11,15 @@ while(true){
     if(somaBanco >21 || soma <= 21 && soma > somaBanco){
         console.log("jogador venceu!!");
         break;
+    }else if(soma > 21){
+        console.log("você perdeu !!");
+        break;
     }
     }
         
     console.log("você perdeu !!!");
     console.log("tente novamente, seus pontos :" , soma);
-    console.log(" pontos do banco :",somaBanco)
+    console.log(" pontos do banco :", somaBanco)
 
 
 
