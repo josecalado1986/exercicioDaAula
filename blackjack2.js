@@ -12,7 +12,7 @@ while(true){
         console.log("jogador venceu!!");
         break;
     }else if(soma > 21){
-        console.log("você perdeu !!");
+    
         break;
     }
     }
