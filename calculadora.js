@@ -17,6 +17,7 @@ function calculadora(num1, num2, op) {
       case 4:
         return num1 / num2;
         break;
+        
       default:
         return "  0  ";
     }
