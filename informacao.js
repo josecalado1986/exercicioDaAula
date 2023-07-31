@@ -3,18 +3,26 @@
 //Caso o usuário não digite um número ou apareça um inválido no campo do ano, o sistema informará o erro e continuará perguntando até que um valor correto seja preenchido.
 
 const input = require("readline-sync");
-let nome = input.question(" digite seu nome completo :");
-let ano = input.questionInt("digite seu ano de nascimento entre 1922 e 2021: ");
-let anoAtual = 2022;
-function idade(nome, ano) {
-    if (ano > 1922 && ano <= 2021) {
-        return anoAtual - ano;
-        console.log(nome + idade)
+function informacao() {
+    let nome = input.question(" digite seu nome completo :  ");
+    let ano = input.questionInt("digite seu ano de nascimento : ");
+    let anoAtual = 2022;
+
+    while (ano)
+        if (ano >= 1922 && ano <= 2021) {
+            console.log("sua idade é : " + ( nome  + (   2022 - ano  +  )));
+            break;
 
 
-    } else if (ano < 1922 || ano > 2021 || ano === isNaN) {
-        console.log(" erro");
-    
-    }
+        } else{
+            console.log(" erro !!! digite nome  e ano de nascimento  entre 1922 e 2021 : ");
+            
+            informacao();
+            
+
+            }
+            
+       
 }
-console.log(nome + idade(nome, ano) + " anos");
+
+informacao();
