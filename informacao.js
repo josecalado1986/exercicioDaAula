@@ -8,17 +8,18 @@ function informacao() {
     let ano = input.questionInt("digite seu ano de nascimento : ");
     let anoAtual = 2022;
 
-    while (ano)
-        if (ano >= 1922 && ano <= 2021) {
-            console.log("sua idade é : " + ( nome  + (   2022 - ano  +  )));
-            break;
+    while (ano){
+        if (ano >= 1922 && ano <= 2021){
+           
+            console.log( nome + " você têm "  + ( 2022 - ano ) + " anos .")
+            return;
 
-
-        } else{
-            console.log(" erro !!! digite nome  e ano de nascimento  entre 1922 e 2021 : ");
-            
+        }else{
+            console.log( "  erro !!!  " +  nome  +  "  digite ano de nascimento  entre 1922 e 2021 : ");
             informacao();
-            
+            return;
+        
+        }
 
             }
             
