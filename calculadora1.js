@@ -19,7 +19,7 @@ function calculadora() {
     }
     let sair = input.question("sair ?");
     if (sair == "sim") {
-      return;
+      break
     } else if (sair == "nao") {
 
       calculadora();
