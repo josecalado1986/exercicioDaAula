@@ -31,14 +31,25 @@ const input = require('readline-sync');
 
 // console.log("a quantidade de elementos pares são: "  +  contador)
 
-let i = 0
-let num = input.question(" digite o numero : ")
+// multiplique um numero ate que o resultado dele seja maior que 1000;
 
-while(num<= 1000){
-    console.log(num *=2);
-    i++
+
+// let i = 0
+// let num = input.question(" digite o numero : ")
+
+// while(num<= 1000){
+    // console.log(num *=2);
+    // i++
     
 
+// }
+
+const senha =1234;
+let digiteSenha = input.question("digite sua senha;")
+
+while(senha != digiteSenha){
+    
 }
 
+   
 
