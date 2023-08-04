@@ -37,3 +37,6 @@ if (candidato_X > candidato_Y && candidato_X > candidato_Z) {
 }
 alert(`Candidato X: ${candidato_X}\nCandidato Y: ${candidato_Y}\nCandidato Z: ${candidato_Z}\nBranco: ${branco}`);
     
+
+
+
