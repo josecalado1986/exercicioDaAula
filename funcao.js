@@ -42,15 +42,14 @@ const input = require("readline-sync")
 //}
 //verificarpar(num1);
 
-let lista= ["carne" , "frutas", "ovos", "uva" ]
+//let lista= ["carne" , "frutas", "ovos", "uva" ]
 
-function imprimirLista(lista){
-    for(let i=0 ; i < lista.length ;i++){
-    console.log(lista)}
-}
-imprimirLista(lista[0]);
-imprimirLista(lista[1]);
-imprimirLista(lista[2]);
-imprimirLista(lista[3]);
-
+//function imprimirLista(lista){
+  //  for(let i=0 ; i < lista.length ;i++){
+    //console.log(lista)}
+//}
+//imprimirLista(lista[0]);
+//imprimirLista(lista[1]);
+//imprimirLista(lista[2]);
+//imprimirLista(lista[3]);
 
